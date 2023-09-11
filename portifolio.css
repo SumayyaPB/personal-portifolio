@@ -1,0 +1,49 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.val-form{
+ width: 22rem;
+}
+.form-cont{
+	padding: 1.5rem;
+	width: 100%S;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1.5rem;
+}
+.form-input{
+	display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: #212529; */
+    /* background-color: #fff; */
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    /*-webkit-appearance: none;
+    -moz-appearance: none;*/
+    /* appearance: none; */
+    border-radius: 0.25rem;
+   /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;*/
+    width: 100%;
+}
+.form-input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+   }
+   .button{
+    margin-inline-start: 32%;
+}
+.gallery-item:hover{
+  transform: scale(1.1); 
+  transition: all 0.3s ease-in-out;
+}
+.contact{
+   margin-inline-start: 42%;
+}
