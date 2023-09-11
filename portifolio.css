@@ -47,3 +47,6 @@
 .contact{
    margin-inline-start: 42%;
 }
+section#About img {
+    width: 100%;
+}
