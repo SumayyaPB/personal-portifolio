@@ -37,9 +37,9 @@
     border-color: #86b7fe;
     outline: 0;
    }
-   .button{
+/*   .button{
     margin-inline-start: 32%;
-}
+}*/
 .gallery-item:hover{
   transform: scale(1.1); 
   transition: all 0.3s ease-in-out;
@@ -49,4 +49,7 @@
 }
 section#About img {
     width: 100%;
+}
+.btn-center {
+    text-align: center;
 }
